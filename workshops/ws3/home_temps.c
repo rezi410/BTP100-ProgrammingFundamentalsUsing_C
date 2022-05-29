@@ -3,34 +3,6 @@
 
 #include <stdio.h>
 
-/*
-// workshop 3 lab session
-
-int main() {
-   int i, high, low, flag = 0;
-   printf("---===IPC Temperature Analyzer===---\n");
-   for (i = 0; i < NUMS; i++) {
-         printf("Enter the high value for day %d: ", i+1);
-         scanf("%d", &high);
-         printf("Enter the low value for day %d: ", i+1);
-         scanf("%d", &low);
-         do {
-            if (high > 40 || low < -40 || high <low) {
-               printf("Incorrect value, temperqatures must be in the range -40 to 40, high must be"
-                  "greater than low.\n");
-               flag = 1;
-               i--;
-            }
-            else {
-               break;
-            }
-
-         } while (!flag);
-   }
-   return 0;
-}
-
-*/
 // workshop 3 home session
 int main() {
    int i, high, low, c_high = 0, c_low = 0, i_high=0, i_low=0;
