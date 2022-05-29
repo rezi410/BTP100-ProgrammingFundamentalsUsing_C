@@ -1,13 +1,4 @@
-/* -------------------------------------------
-Name: Reziyemu Sulaiman
-Student number: 106-153-208
-Email: rsulaiman2@myseneca.ca
-Section: NBB
-Date: 11/10/2020
-----------------------------------------------
-Assignment: 1
-Milestone:  4
----------------------------------------------- */
+
 
 #define _CRT_SECURE_NO_WARNINGS
 
