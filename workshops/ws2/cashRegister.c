@@ -1,19 +1,24 @@
+
 #include <stdio.h>
-int main(void)
+#define _CRT_SECURE_NO_WARNINGS
+
+int main()
 {
-	int loonies, quarters, dollars, money;
-	double money, left = 0;
-    money = 8.68;
-	8.68 = dollars;
-	dollars / 10 = loonies;
-	loonies / 4 = quarters;
+    double amountDue, remaining, quarters = 0.25;
+    int loonies = 1, looniesRequired, quartersRequired;
 
-	printf("please enter the money to be paid: $");
-	printf( "int <=double\n");
+    printf("Please enter the amount to be paid: $");
+    scanf("%lf", &amountDue);
 
-	printf( "amount of money: $%.2lf\n", money );
-	printf( "amount of money left after receiving quarters: $%.2lf\n",left );
-	printf( "\nYou will receive %d loonie(s)and %d quarter(s)!\n", loonies, quarters );
+    looniesRequired = amountDue / loonies; //8.68/1 = 8
+    remaining = amountDue - looniesRequired; //8.68-8 = 0.68
 
-	return 0;
+    printf("Loonies required: %d, balance owing $%.2lf\n", looniesRequired, remaining); //8 , 0.68
+
+    quartersRequired = remaining / quarters; //0.68/0.25 = 2/72 = 2
+    remaining = remaining - (quarters * quartersRequired);
+
+    printf("Quarters required: %d, balance owing $%.2lf\n", quartersRequired, remaining);
+
+    return 0;
 }
