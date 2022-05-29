@@ -1,10 +1,4 @@
-//==============================================
-// Name:           Reziyemu Sulaiman
-// Student Number: 106-153-208
-// Email:          rsulaiman2@myseneca.ca
-// Section:        BTPNBB
-// Workshop:       3 (at-home)
-//==============================================
+
 
 #define _CRT_SECURE_NO_WARNINGS
 
